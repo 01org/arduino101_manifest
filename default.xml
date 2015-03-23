@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
+  <default revision="master" remote="ach" />
+
+  <project name="atlaspeak_manifest" path="manifest" revision="master"/>
+  <project name="thunderdome_main" path="thunderdome" revision="master"/>
+  <project name="thunderdome_bootloader" path="bootloader"revision="master"/>
+  <project name="atlaspeak_bootstrap" path="bootstrap" revision="master"/>
+  <project name="atlaspeak_nordicsdk" path="nordicsdk" revision="master"/>
+  <project name="atlaspeak_arcdrivers" path="arcdrivers" revision="master"/>
+  <project name="atlaspeak_jlink" path="jlink" revision="master"/>
+  <project name="atlaspeak_main" path="main" revision="master">
+    <linkfile src="build/Makefile.mk" dest="Makefile" />
+  </project>
+
+</manifest>
