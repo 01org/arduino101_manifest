@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
+  <!-- sync-s is necessary to tell repo to also clone git submodules -->
   <default revision="master" remote="ach" sync-s="true"/>
 
   <project name="atlaspeak_manifest" path="manifest" revision="master"/>
