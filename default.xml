@@ -11,6 +11,7 @@
   <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="master"/>
   <project name="atlaspeak_arcdrivers" path="thirdparty/arcdrivers" revision="master"/>
   <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="master"/>
+  <project name="atlaspeak_fstemulation" path="thirdparty/fstemulation" revision="master"/>
   <project name="atlaspeak_main" path="main" revision="master">
     <linkfile src="build/Makefile.mk" dest="Makefile" />
   </project>
