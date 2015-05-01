@@ -4,21 +4,21 @@
   <!-- sync-s is necessary to tell repo to also clone git submodules -->
   <default revision="master" remote="ach" sync-s="true"/>
 
-  <project name="atlaspeak_manifest" path="manifest" revision="master"/>
-  <project name="thunderdome_main" path="thunderdome" revision="master"/>
-  <project name="thunderdome_bootloader" path="bootloader" revision="master"/>
-  <project name="atlaspeak_bootstrap" path="bootstrap" revision="master"/>
-  <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="master"/>
-  <project name="atlaspeak_arcdrivers" path="thirdparty/arcdrivers" revision="master"/>
-  <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="master"/>
-  <project name="atlaspeak_fstemulation" path="thirdparty/fst_emulation" revision="master"/>
-  <project name="thunderdome_openocd" path="thirdparty/openocd" revision="master"/>
-  <project name="atlaspeak_main" path="main" revision="master">
+  <project name="atlaspeak_manifest" path="manifest" revision="dev/atlasedge/factory"/>
+  <project name="thunderdome_main" path="thunderdome" revision="dev/atlasedge/factory"/>
+  <project name="thunderdome_bootloader" path="bootloader" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_bootstrap" path="bootstrap" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_arcdrivers" path="thirdparty/arcdrivers" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_fstemulation" path="thirdparty/fst_emulation" revision="dev/atlasedge/factory"/>
+  <project name="thunderdome_openocd" path="thirdparty/openocd" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_main" path="main" revision="dev/atlasedge/factory">
     <linkfile src="build/Makefile.mk" dest="Makefile" />
   </project>
-  <project name="atlaspeak_qemu" path="thirdparty/qemu-arc" revision="qemu-arc"/>
-  <project name="atlaspeak_qemu" path="thirdparty/qemu-lakemont" revision="qemu-lakemont"/>
-  <project name="atlaspeak_seabios" path="thirdparty/qemu-lakemont/rom/seabios" revision="master"/>
-  <project name="atlaspeak_seabios" path="thirdparty/qemu-arc/rom/seabios" revision="master"/>
+  <project name="atlaspeak_qemu" path="thirdparty/qemu-arc" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_qemu" path="thirdparty/qemu-lakemont" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_seabios" path="thirdparty/qemu-lakemont/rom/seabios" revision="dev/atlasedge/factory"/>
+  <project name="atlaspeak_seabios" path="thirdparty/qemu-arc/rom/seabios" revision="dev/atlasedge/factory"/>
 
 </manifest>
