@@ -2,5 +2,5 @@
 <manifest>
     <include name="default.xml"/>
     <remote fetch="git+ssh://git@github.com/01org/" name="github"/>
-    <project remote="github" name="atlasedge" path="thunderdome/devices/atlasedge" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
+    <project remote="github" name="atlasedge" path="thunderdome/devices/atlasedge" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
 </manifest>

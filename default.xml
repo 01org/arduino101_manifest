@@ -4,21 +4,21 @@
   <!-- sync-s is necessary to tell repo to also clone git submodules -->
   <default revision="master" remote="ach" sync-s="true"/>
 
-  <project name="atlaspeak_manifest" path="manifest" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="thunderdome_main" path="thunderdome" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="thunderdome_bootloader" path="bootloader" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_bootstrap" path="bootstrap" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_arcdrivers" path="thirdparty/arcdrivers" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_fstemulation" path="thirdparty/fst_emulation" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="thunderdome_openocd" path="thirdparty/openocd" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_main" path="main" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06">
+  <project name="atlaspeak_manifest" path="manifest" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="thunderdome_main" path="thunderdome" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="thunderdome_bootloader" path="bootloader" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_bootstrap" path="bootstrap" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_arcdrivers" path="thirdparty/arcdrivers" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_fstemulation" path="thirdparty/fst_emulation" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="thunderdome_openocd" path="thirdparty/openocd" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_main" path="main" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14">
     <linkfile src="build/Makefile.mk" dest="Makefile" />
   </project>
-  <project name="atlaspeak_qemu" path="thirdparty/qemu-arc" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_qemu" path="thirdparty/qemu-lakemont" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_seabios" path="thirdparty/qemu-lakemont/rom/seabios" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
-  <project name="atlaspeak_seabios" path="thirdparty/qemu-arc/rom/seabios" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-06"/>
+  <project name="atlaspeak_qemu" path="thirdparty/qemu-arc" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_qemu" path="thirdparty/qemu-lakemont" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_seabios" path="thirdparty/qemu-lakemont/rom/seabios" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
+  <project name="atlaspeak_seabios" path="thirdparty/qemu-arc/rom/seabios" revision="refs/tags/ATLASEDGE/FACTORY/2015-05-14"/>
 
 </manifest>
