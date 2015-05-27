@@ -24,5 +24,6 @@
   <project name="atlaspeak_qemu" path="thirdparty/qemu-lakemont" revision="qemu-lakemont"/>
   <project name="atlaspeak_seabios" path="thirdparty/qemu-lakemont/rom/seabios" revision="master"/>
   <project name="atlaspeak_seabios" path="thirdparty/qemu-arc/rom/seabios" revision="master"/>
+  <project name="thunderdome_basis" path="thirdparty/basis" revision="master"/>
 
 </manifest>
