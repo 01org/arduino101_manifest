@@ -11,7 +11,6 @@
   <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="master"/>
   <project name="atlaspeak_arcdrivers" path="thirdparty/arcdrivers" revision="master"/>
   <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="master"/>
-  <project name="atlaspeak_fstemulation" path="thirdparty/fst_emulation" revision="master"/>
   <project name="thunderdome_openocd" path="thirdparty/openocd" revision="master"/>
   <project name="thunderdome_tinymountain" path="thirdparty/tiny_mountain" revision="master"/>
   <project name="atlaspeak_main" path="main" revision="master">
