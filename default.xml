@@ -9,7 +9,6 @@
   <project name="thunderdome_bootloader" path="bootloader" revision="master"/>
   <project name="atlaspeak_bootstrap" path="bootstrap" revision="master"/>
   <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="master"/>
-  <project name="atlaspeak_arcdrivers" path="thirdparty/arcdrivers" revision="master"/>
   <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="master"/>
   <project name="thunderdome_openocd" path="thirdparty/openocd" revision="master"/>
   <project name="thunderdome_tinymountain" path="thirdparty/tiny_mountain" revision="master"/>
