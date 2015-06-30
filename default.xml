@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-  <!-- sync-s is necessary to tell repo to also clone git submodules -->
-  <default revision="master" remote="ach" sync-s="true"/>
-
-  <project name="atlaspeak_manifest" path="manifest" revision="master"/>
-  <project name="thunderdome_main" path="thunderdome" revision="master"/>
-  <project name="thunderdome_bootloader" path="bootloader" revision="master"/>
-  <project name="atlaspeak_bootstrap" path="bootstrap" revision="master"/>
-  <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" revision="master"/>
-  <project name="atlaspeak_jlink" path="thirdparty/jlink" revision="master"/>
-  <project name="thunderdome_openocd" path="thirdparty/openocd" revision="master"/>
-  <project name="thunderdome_tinymountain" path="thirdparty/tiny_mountain" revision="master"/>
-  <project name="atlaspeak_main" path="main" revision="master">
-    <linkfile src="build/Makefile.mk" dest="Makefile" />
-  </project>
-  <project name="thunderdome_gcc-arc" path="thirdparty/gcc-arc-elf32" revision="master"/>
-  <project name="thunderdome_gcc-i586" path="thirdparty/gcc-i586-pc-elf" revision="master"/>
-  <project name="thunderdome_gcc-arm" path="thirdparty/gcc-arm" revision="master"/>
-  <project name="atlaspeak_qemu" path="thirdparty/qemu" revision="master"/>
-  <project name="atlaspeak_seabios" path="thirdparty/qemu/rom/seabios" revision="master"/>
-  <project name="thunderdome_basis" path="thirdparty/basis" revision="master"/>
-
+    <include name="atlaspeak.xml"/>
+    <remote fetch="ssh://android.intel.com:29418" name="android" review="https://android.intel.com"/>
+    <project remote="android" name="atlaspeak_atlasedge" path="thunderdome/devices/atlaspeak_atlasedge" revision="master"/>
 </manifest>
