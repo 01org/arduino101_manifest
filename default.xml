@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <include name="atlaspeak.xml"/>
     <remote fetch="ssh://android.intel.com:29418" name="android" review="https://android.intel.com"/>
+
+    <include name="include/atlaspeak.xml"/>
     <project remote="android" name="atlaspeak_atlasedge" path="thunderdome/devices/atlaspeak_atlasedge" revision="master"/>
 </manifest>
