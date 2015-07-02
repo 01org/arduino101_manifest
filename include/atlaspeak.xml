@@ -17,6 +17,7 @@
   </project>
   <project name="thunderdome_gcc-arc" path="thirdparty/gcc-arc-elf32" revision="master"/>
   <project name="thunderdome_gcc-i586" path="thirdparty/gcc-i586-pc-elf" revision="master"/>
+  <project name="thunderdome_nanopb" path="thirdparty/nanopb" revision="master"/>
   <project name="thunderdome_gcc-arm" path="thirdparty/gcc-arm" revision="master"/>
   <project name="atlaspeak_qemu" path="thirdparty/qemu" revision="master"/>
   <project name="atlaspeak_seabios" path="thirdparty/qemu/rom/seabios" revision="master"/>
