@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-    <default revision="master" remote="ach" sync-s="true"/>
+    <default revision="refs/tags/ATLASEDGE/WEEKLY/WW29" remote="ach" sync-s="true"/>
 
     <include name="include/atlaspeak.xml"/>
-    <project name="atlaspeak_atlasedge" path="thunderdome/devices/atlaspeak_atlasedge" revision="master"/>
+    <project name="atlaspeak_atlasedge" path="thunderdome/devices/atlaspeak_atlasedge" revision="refs/tags/ATLASEDGE/WEEKLY/WW29"/>
 </manifest>
