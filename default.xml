@@ -1,8 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-    <default revision="master" remote="ach" sync-s="true"/>
-
-    <include name="include/atlaspeak.xml"/>
-    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" revision="master"/>
+  <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com" />
+  
+  <default remote="ach" revision="feature/curie" sync-s="true" />
+  
+  <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" sync-s="true" />
+  <project name="atlaspeak_bootstrap" path="bootstrap" sync-s="true" />
+  <project name="atlaspeak_jlink" path="thirdparty/jlink" sync-s="true" />
+  <project name="atlaspeak_main" path="main" sync-s="true">
+    <linkfile dest="Makefile" src="build/Makefile.mk" />
+  </project>
+  <project name="atlaspeak_manifest" path="manifest" sync-s="true" />
+  <project name="atlaspeak_nordicsdk" path="thirdparty/nordicsdk" sync-s="true" />
+  <project name="atlaspeak_qemu" path="thirdparty/qemu" sync-s="true" />
+  <project name="atlaspeak_seabios" path="thirdparty/qemu/rom/seabios" sync-s="true" />
+  <project name="thunderdome_basis" path="thirdparty/basis" sync-s="true" />
+  <project name="thunderdome_bootloader" path="bootloader" sync-s="true" />
+  <project name="thunderdome_gcc-arc" path="thirdparty/gcc-arc-elf32" sync-s="true" />
+  <project name="thunderdome_gcc-arm" path="thirdparty/gcc-arm" sync-s="true" />
+  <project name="thunderdome_gcc-i586" path="thirdparty/gcc-i586-pc-elf" sync-s="true" />
+  <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" sync-s="true" />
+  <project name="thunderdome_main" path="thunderdome" sync-s="true" />
+  <project name="thunderdome_nanopb" path="thirdparty/nanopb" sync-s="true" />
+  <project name="thunderdome_openocd" path="thirdparty/openocd" sync-s="true" />
+  <project name="thunderdome_psh_core" path="thirdparty/psh_core" sync-s="true" />
+  <project name="thunderdome_tinymountain" path="thirdparty/tiny_mountain" sync-s="true" />
 </manifest>
