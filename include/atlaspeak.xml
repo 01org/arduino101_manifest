@@ -5,15 +5,15 @@
   <default revision="master" remote="ach" sync-s="true"/>
 
   <project name="atlaspeak_manifest" path="manifest" revision="master"/>
-  <project name="thunderdome_main" path="thunderdome" revision="master"/>
+  <project name="thunderdome_main" path="thunderdome" revision="master">
+	  <linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile" />
+  </project>
   <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" revision="master"/>
   <project name="atlaspeak_nordicsdk" path="thunderdome/thirdparty/nordicsdk" revision="master"/>
   <project name="atlaspeak_jlink" path="thunderdome/thirdparty/jlink" revision="master"/>
   <project name="thunderdome_openocd" path="thunderdome/thirdparty/openocd" revision="master"/>
   <project name="thunderdome_tinymountain" path="thunderdome/thirdparty/tiny_mountain" revision="master"/>
-  <project name="atlaspeak_main" path="main" revision="master">
-    <linkfile src="build/Makefile.mk" dest="Makefile" />
-  </project>
+  <project name="atlaspeak_main" path="main" revision="master" />
   <project name="thunderdome_gcc-arc" path="thunderdome/thirdparty/gcc-arc-elf32" revision="master"/>
   <project name="thunderdome_gcc-i586" path="thunderdome/thirdparty/gcc-i586-pc-elf" revision="master"/>
   <project name="thunderdome_nanopb" path="thunderdome/thirdparty/nanopb" revision="master"/>
