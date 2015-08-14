@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
+    <default revision="master" remote="ach" sync-s="true"/>
+
+    <include name="include/atlaspeak.xml"/>
+    <project name="morpheus_main" path="thunderdome/projects/morpheus" revision="master"/>
+</manifest>
