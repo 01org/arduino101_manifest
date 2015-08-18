@@ -20,7 +20,7 @@
   <project name="thunderdome_gcc-arm" path="thunderdome/thirdparty/gcc-arm" revision="master"/>
   <project name="atlaspeak_qemu" path="thunderdome/thirdparty/qemu" revision="master"/>
   <project name="atlaspeak_seabios" path="thunderdome/thirdparty/qemu/rom/seabios" revision="master"/>
-  <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/basis" revision="master"/>
+  <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/algo/activity_algos" revision="master"/>
   <project name="thunderdome_psh_core" path="thunderdome/packages/intel/sensors/psh_core" revision="master"/>
   <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" revision="master"/>
 
