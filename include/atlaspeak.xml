@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-  <!-- sync-s is necessary to tell repo to also clone git submodules -->
-  <default revision="master" remote="ach" sync-s="true"/>
+  <default revision="master" remote="ach"/>
 
   <project name="atlaspeak_manifest" path="manifest" revision="master"/>
   <project name="thunderdome_main" path="thunderdome" revision="master">
@@ -14,6 +13,7 @@
   <project name="thunderdome_openocd" path="thunderdome/thirdparty/openocd" revision="master"/>
   <project name="thunderdome_tinymountain" path="thunderdome/thirdparty/tiny_mountain" revision="master"/>
   <project name="atlaspeak_main" path="main" revision="master" />
+  <project name="thunderdome_kconfig" path="thunderdome/thirdparty/kconfig" revision="master"/>
   <project name="thunderdome_gcc-arc" path="thunderdome/thirdparty/gcc-arc-elf32" revision="master"/>
   <project name="thunderdome_gcc-i586" path="thunderdome/thirdparty/gcc-i586-pc-elf" revision="master"/>
   <project name="thunderdome_nanopb" path="thunderdome/thirdparty/nanopb" revision="master"/>
