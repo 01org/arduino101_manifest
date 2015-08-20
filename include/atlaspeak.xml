@@ -23,5 +23,6 @@
   <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/algo/activity_algos" revision="master"/>
   <project name="thunderdome_psh_core" path="thunderdome/packages/intel/sensors/psh_core" revision="master"/>
   <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" revision="master"/>
+  <project name="thunderdome_dhrystone" path="thunderdome/thirdparty/dhrystone" revision="master"/>
 
 </manifest>
