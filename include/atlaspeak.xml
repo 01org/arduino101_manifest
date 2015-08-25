@@ -11,7 +11,7 @@
   <project name="atlaspeak_nordicsdk" path="thunderdome/thirdparty/nordicsdk" revision="master"/>
   <project name="atlaspeak_jlink" path="thunderdome/thirdparty/jlink" revision="master"/>
   <project name="thunderdome_openocd" path="thunderdome/thirdparty/openocd" revision="master"/>
-  <project name="thunderdome_zephyr" path="thunderdome/thirdparty/zephyr" revision="fabien"/>
+  <project name="thunderdome_zephyr" path="thunderdome/thirdparty/zephyr" revision="master"/>
   <project name="atlaspeak_main" path="main" revision="master" />
   <project name="thunderdome_kconfig" path="thunderdome/thirdparty/kconfig" revision="master"/>
   <project name="thunderdome_gcc-arc" path="thunderdome/thirdparty/gcc-arc-elf32" revision="master"/>
