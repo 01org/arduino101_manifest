@@ -28,5 +28,6 @@
   <project name="thunderdome_sha256" path="thunderdome/external/sha256" revision="master"/>
   <project name="thunderdome_liblzg" path="thunderdome/external/liblzg" revision="master"/>
   <project name="thunderdome_python-ecdsa" path="thunderdome/external/python-ecdsa" revision="master"/>
+  <project name="thunderdome_bluepy" path="thunderdome/external/bluepy" revision="master"/>
 
 </manifest>
