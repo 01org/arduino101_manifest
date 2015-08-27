@@ -5,5 +5,4 @@
 
     <include name="include/atlaspeak.xml"/>
     <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" revision="master"/>
-    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge_factory-dvt" revision="dev/atlasedge/factory-dvt"/>
 </manifest>
