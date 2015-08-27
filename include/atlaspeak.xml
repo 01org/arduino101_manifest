@@ -8,21 +8,21 @@
 	  <linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile" />
   </project>
   <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" revision="master"/>
-  <project name="atlaspeak_nordicsdk" path="thunderdome/thirdparty/nordicsdk" revision="master"/>
-  <project name="atlaspeak_jlink" path="thunderdome/thirdparty/jlink" revision="master"/>
-  <project name="thunderdome_openocd" path="thunderdome/thirdparty/openocd" revision="master"/>
-  <project name="thunderdome_zephyr" path="thunderdome/thirdparty/zephyr" revision="master"/>
+  <project name="atlaspeak_nordicsdk" path="thunderdome/external/nordicsdk" revision="master"/>
+  <project name="atlaspeak_jlink" path="thunderdome/external/jlink" revision="master"/>
+  <project name="thunderdome_openocd" path="thunderdome/external/openocd" revision="master"/>
+  <project name="thunderdome_zephyr" path="thunderdome/external/zephyr" revision="master"/>
   <project name="atlaspeak_main" path="main" revision="master" />
-  <project name="thunderdome_kconfig" path="thunderdome/thirdparty/kconfig" revision="master"/>
-  <project name="thunderdome_gcc-arc" path="thunderdome/thirdparty/gcc-arc-elf32" revision="master"/>
-  <project name="thunderdome_gcc-i586" path="thunderdome/thirdparty/gcc-i586-pc-elf" revision="master"/>
-  <project name="thunderdome_nanopb" path="thunderdome/thirdparty/nanopb" revision="master"/>
-  <project name="thunderdome_gcc-arm" path="thunderdome/thirdparty/gcc-arm" revision="master"/>
-  <project name="atlaspeak_qemu" path="thunderdome/thirdparty/qemu" revision="master"/>
-  <project name="atlaspeak_seabios" path="thunderdome/thirdparty/qemu/rom/seabios" revision="master"/>
+  <project name="thunderdome_kconfig" path="thunderdome/external/kconfig" revision="master"/>
+  <project name="thunderdome_gcc-arc" path="thunderdome/external/gcc-arc-elf32" revision="master"/>
+  <project name="thunderdome_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf" revision="master"/>
+  <project name="thunderdome_nanopb" path="thunderdome/external/nanopb" revision="master"/>
+  <project name="thunderdome_gcc-arm" path="thunderdome/external/gcc-arm" revision="master"/>
+  <project name="atlaspeak_qemu" path="thunderdome/external/qemu" revision="master"/>
+  <project name="atlaspeak_seabios" path="thunderdome/external/qemu/rom/seabios" revision="master"/>
   <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/algo/activity_algos" revision="master"/>
   <project name="thunderdome_psh_core" path="thunderdome/packages/intel/sensors/psh_core" revision="master"/>
   <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" revision="master"/>
-  <project name="thunderdome_dhrystone" path="thunderdome/thirdparty/dhrystone" revision="master"/>
+  <project name="thunderdome_dhrystone" path="thunderdome/external/dhrystone" revision="master"/>
 
 </manifest>
