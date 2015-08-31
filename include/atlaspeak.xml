@@ -12,7 +12,6 @@
   <project name="atlaspeak_jlink" path="thunderdome/external/jlink" revision="master"/>
   <project name="thunderdome_openocd" path="thunderdome/external/openocd" revision="master"/>
   <project name="thunderdome_zephyr" path="thunderdome/external/zephyr" revision="master"/>
-  <project name="atlaspeak_main" path="main" revision="master" />
   <project name="thunderdome_kconfig" path="thunderdome/external/kconfig" revision="master"/>
   <project name="thunderdome_gcc-arc" path="thunderdome/external/gcc-arc-elf32" revision="master"/>
   <project name="thunderdome_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf" revision="master"/>
