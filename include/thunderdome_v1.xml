@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
+  <default revision="thunderdome_v1" remote="ach"/>
+
+  <project name="atlaspeak_manifest" path="manifest" revision="master"/>
+  <project name="thunderdome_main" path="thunderdome" >
+	  <linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile" />
+  </project>
+  <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" />
+  <project name="atlaspeak_nordicsdk" path="thunderdome/external/nordicsdk" />
+  <project name="atlaspeak_jlink" path="thunderdome/external/jlink" />
+  <project name="thunderdome_openocd" path="thunderdome/external/openocd" />
+  <project name="thunderdome_zephyr" path="thunderdome/external/zephyr" />
+  <project name="thunderdome_kconfig" path="thunderdome/external/kconfig" />
+  <project name="thunderdome_gcc-arc" path="thunderdome/external/gcc-arc-elf32" />
+  <project name="thunderdome_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf" />
+  <project name="thunderdome_nanopb" path="thunderdome/external/nanopb" />
+  <project name="thunderdome_gcc-arm" path="thunderdome/external/gcc-arm" />
+  <project name="atlaspeak_qemu" path="thunderdome/external/qemu" />
+  <project name="atlaspeak_seabios" path="thunderdome/external/qemu/rom/seabios" />
+  <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/algo/activity_algos" />
+  <project name="thunderdome_psh_core" path="thunderdome/packages/intel/sensors/psh_core" />
+  <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" />
+  <project name="thunderdome_dhrystone" path="thunderdome/external/dhrystone" />
+  <project name="thunderdome_micro-ecc" path="thunderdome/external/micro-ecc" />
+  <project name="thunderdome_sha256" path="thunderdome/external/sha256" />
+  <project name="thunderdome_liblzg" path="thunderdome/external/liblzg" />
+  <project name="thunderdome_python-ecdsa" path="thunderdome/external/python-ecdsa" />
+  <project name="thunderdome_bluepy" path="thunderdome/external/bluepy" />
+
+</manifest>
