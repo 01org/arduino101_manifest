@@ -4,5 +4,5 @@
     <default revision="master" remote="ach"/>
 
     <include name="include/atlaspeak.xml"/>
-    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" revision="master"/>
+    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" revision="dev/atlasedge/cdc-acm"/>
 </manifest>

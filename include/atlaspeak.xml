@@ -4,10 +4,10 @@
   <default revision="master" remote="ach"/>
 
   <project name="atlaspeak_manifest" path="manifest" revision="master"/>
-  <project name="thunderdome_main" path="thunderdome" revision="master">
+  <project name="thunderdome_main" path="thunderdome" revision="dev/atlasedge/cdc-acm">
 	  <linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile" />
   </project>
-  <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" revision="master"/>
+  <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" revision="dev/atlasedge/cdc-acm"/>
   <project name="atlaspeak_nordicsdk" path="thunderdome/external/nordicsdk" revision="master"/>
   <project name="atlaspeak_jlink" path="thunderdome/external/jlink" revision="master"/>
   <project name="thunderdome_openocd" path="thunderdome/external/openocd" revision="master"/>
