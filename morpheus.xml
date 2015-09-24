@@ -4,5 +4,5 @@
     <default revision="master" remote="ach"/>
 
     <include name="include/atlaspeak.xml"/>
-    <project name="morpheus_main" path="thunderdome/projects/morpheus" revision="master"/>
+    <project name="morpheus_main" path="wearable_device_sw/projects/morpheus"/>
 </manifest>
