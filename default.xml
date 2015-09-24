@@ -4,5 +4,5 @@
     <default revision="thunderdome_v1" remote="ach"/>
 
     <include name="include/atlaspeak.xml"/>
-    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlasedge"/>
+    <project name="atlaspeak_atlasedge" path="wearable_device_sw/projects/atlasedge"/>
 </manifest>
