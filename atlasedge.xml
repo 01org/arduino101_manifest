@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <include name="include/atlaspeak.xml"/>
-    <remote fetch="git+ssh://git@github.com/01org/" name="github"/>
-    <project remote="github" name="atlasedge" path="thunderdome/devices/atlaspeak_atlasedge" revision="master"/>
-</manifest>
