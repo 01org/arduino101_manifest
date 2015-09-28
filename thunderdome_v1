@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-    <default revision="thunderdome_v1" remote="ach"/>
-
-    <include name="include/thunderdome_v1.xml"/>
-    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge"/>
-</manifest>
