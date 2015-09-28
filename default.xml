@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-    <default revision="dev/atlasedge/pvt/factory" remote="ach"/>
+    <default revision="refs/tags/ATLASEDGE/PVT/FACTORY" remote="ach"/>
 
     <include name="include/atlaspeak.xml"/>
-    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" revision="dev/atlasedge/pvt/factory"/>
+    <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge"/>
 </manifest>
