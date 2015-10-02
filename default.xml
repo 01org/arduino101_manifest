@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com" />
   
-  <default remote="ach" revision="feature/curie" sync-s="true" />
+  <default remote="ach" revision="feature/curie_ww32" sync-s="true" />
   
   <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" sync-s="true" />
   <project name="atlaspeak_bootstrap" path="bootstrap" sync-s="true" />
