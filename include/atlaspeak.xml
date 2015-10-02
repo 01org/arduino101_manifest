@@ -4,29 +4,29 @@
   <default revision="morpheus-dsw-integration" remote="ach"/>
 
   <project name="atlaspeak_manifest" path="manifest" />
-  <project name="thunderdome_main" path="thunderdome" >
+  <project name="thunderdome_main" path="wearable_device_sw" >
 	  <linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile" />
   </project>
-  <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" />
-  <project name="atlaspeak_nordicsdk" path="thunderdome/external/nordicsdk" />
-  <project name="atlaspeak_jlink" path="thunderdome/external/jlink" />
-  <project name="thunderdome_openocd" path="thunderdome/external/openocd" />
-  <project name="thunderdome_zephyr" path="thunderdome/external/zephyr" />
-  <project name="thunderdome_kconfig" path="thunderdome/external/kconfig" />
-  <project name="thunderdome_gcc-arc" path="thunderdome/external/gcc-arc-elf32" />
-  <project name="thunderdome_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf" />
-  <project name="thunderdome_nanopb" path="thunderdome/external/nanopb" />
-  <project name="thunderdome_gcc-arm" path="thunderdome/external/gcc-arm" />
-  <project name="atlaspeak_qemu" path="thunderdome/external/qemu" />
-  <project name="atlaspeak_seabios" path="thunderdome/external/qemu/rom/seabios" />
-  <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/algo/activity_algos" />
-  <project name="thunderdome_psh_core" path="thunderdome/packages/intel/sensors/psh_core" />
-  <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" />
-  <project name="thunderdome_dhrystone" path="thunderdome/external/dhrystone" />
-  <project name="thunderdome_micro-ecc" path="thunderdome/external/micro-ecc" />
-  <project name="thunderdome_sha256" path="thunderdome/external/sha256" />
-  <project name="thunderdome_liblzg" path="thunderdome/external/liblzg" />
-  <project name="thunderdome_python-ecdsa" path="thunderdome/external/python-ecdsa" />
-  <project name="thunderdome_bluepy" path="thunderdome/external/bluepy" />
+  <project name="thunderdome_bootloader" path="wearable_device_sw/bsp/bootable/bootloader" />
+  <project name="atlaspeak_nordicsdk" path="wearable_device_sw/external/nordicsdk" />
+  <project name="atlaspeak_jlink" path="wearable_device_sw/external/jlink" />
+  <project name="thunderdome_openocd" path="wearable_device_sw/external/openocd" />
+  <project name="thunderdome_zephyr" path="wearable_device_sw/external/zephyr" />
+  <project name="thunderdome_kconfig" path="wearable_device_sw/external/kconfig" />
+  <project name="thunderdome_gcc-arc" path="wearable_device_sw/external/gcc-arc-elf32" />
+  <project name="thunderdome_gcc-i586" path="wearable_device_sw/external/gcc-i586-pc-elf" />
+  <project name="thunderdome_nanopb" path="wearable_device_sw/external/nanopb" />
+  <project name="thunderdome_gcc-arm" path="wearable_device_sw/external/gcc-arm" />
+  <project name="atlaspeak_qemu" path="wearable_device_sw/external/qemu" />
+  <project name="atlaspeak_seabios" path="wearable_device_sw/external/qemu/rom/seabios" />
+  <project name="thunderdome_basis" path="wearable_device_sw/packages/intel/sensors/algo/activity_algos" />
+  <project name="thunderdome_psh_core" path="wearable_device_sw/packages/intel/sensors/psh_core" />
+  <project name="thunderdome_intelpackages" path="wearable_device_sw/packages/intel" />
+  <project name="thunderdome_dhrystone" path="wearable_device_sw/external/dhrystone" />
+  <project name="thunderdome_micro-ecc" path="wearable_device_sw/external/micro-ecc" />
+  <project name="thunderdome_sha256" path="wearable_device_sw/external/sha256" />
+  <project name="thunderdome_liblzg" path="wearable_device_sw/external/liblzg" />
+  <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa" />
+  <project name="thunderdome_bluepy" path="wearable_device_sw/external/bluepy" />
 
 </manifest>
