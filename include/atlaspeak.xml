@@ -26,5 +26,5 @@
   <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa"/>
   <project name="thunderdome_bluepy" path="wearable_device_sw/external/bluepy"/>
   <project name="curie_orb" path="wearable_device_sw/projects/curie_orb"/>
-
+  <project name="thunderdome_android_sdk" path="android_sdk" revision="dev/makeitwearable"/>
 </manifest>
