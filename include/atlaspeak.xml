@@ -22,10 +22,13 @@
   <project name="thunderdome_basis" path="wearable_device_sw/packages/intel/sensors/algo/activity_algos"/>
   <project name="thunderdome_psh_core" path="wearable_device_sw/packages/intel/sensors/psh_core"/>
   <project name="thunderdome_intelpackages" path="wearable_device_sw/packages/intel"/>
+  <project name="thunderdome_emulator" path="wearable_device_sw/packages/intel/emulator"/>
   <project name="thunderdome_dhrystone" path="wearable_device_sw/external/dhrystone"/>
   <project name="thunderdome_micro-ecc" path="wearable_device_sw/external/micro-ecc"/>
   <project name="thunderdome_sha256" path="wearable_device_sw/external/sha256"/>
   <project name="thunderdome_liblzg" path="wearable_device_sw/external/liblzg"/>
   <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa"/>
   <project name="thunderdome_bluepy" path="wearable_device_sw/external/bluepy"/>
+  <project name="thunderdome_go" path="wearable_device_sw/external/go"/>
+  <project name="thunderdome_gatt" path="wearable_device_sw/external/go-packages/src/github.com/paypal/gatt"/>
 </manifest>
