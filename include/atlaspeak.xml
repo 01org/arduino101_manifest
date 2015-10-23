@@ -32,4 +32,5 @@
   <project name="thunderdome_go" path="wearable_device_sw/external/go"/>
   <project name="thunderdome_gatt" path="wearable_device_sw/external/go-packages/src/github.com/paypal/gatt"/>
   <project name="thunderdome_android_sdk" path="android_sdk"/>
+  <project name="ios_sdk" path="ios_sdk"/>
 </manifest>
