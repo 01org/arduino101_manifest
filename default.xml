@@ -2,32 +2,32 @@
 <manifest>
   <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
   
-  <default remote="ach" revision="feature/curie"/>
+  <default remote="ach" revision="feature/curie_ww39"/>
   
-  <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" upstream="feature/curie"/>
-  <project name="atlaspeak_jlink" path="thunderdome/external/jlink" upstream="feature/curie"/>
-  <project name="atlaspeak_manifest" path="manifest" upstream="feature/curie"/>
-  <project name="atlaspeak_nordicsdk" path="thunderdome/external/nordicsdk" upstream="feature/curie"/>
-  <project name="atlaspeak_qemu" path="thunderdome/external/qemu" upstream="feature/curie"/>
-  <project name="atlaspeak_seabios" path="thunderdome/external/qemu/rom/seabios" upstream="feature/curie"/>
-  <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/algo/activity_algos" upstream="feature/curie"/>
-  <project name="thunderdome_bluepy" path="thunderdome/external/bluepy" upstream="feature/curie"/>
-  <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" upstream="feature/curie"/>
-  <project name="thunderdome_dhrystone" path="thunderdome/external/dhrystone" upstream="feature/curie"/>
-  <project name="thunderdome_gcc-arc" path="thunderdome/external/gcc-arc-elf32" upstream="feature/curie"/>
-  <project name="thunderdome_gcc-arm" path="thunderdome/external/gcc-arm" upstream="feature/curie"/>
-  <project name="thunderdome_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf" upstream="feature/curie"/>
-  <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" upstream="feature/curie"/>
-  <project name="thunderdome_kconfig" path="thunderdome/external/kconfig" upstream="feature/curie"/>
-  <project name="thunderdome_liblzg" path="thunderdome/external/liblzg" upstream="feature/curie"/>
-  <project name="thunderdome_main" path="thunderdome" upstream="feature/curie">
+  <project name="atlaspeak_atlasedge" path="thunderdome/projects/atlaspeak_atlasedge" upstream="feature/curie_ww39"/>
+  <project name="atlaspeak_jlink" path="thunderdome/external/jlink" upstream="feature/curie_ww39"/>
+  <project name="atlaspeak_manifest" path="manifest" upstream="feature/curie_ww39"/>
+  <project name="atlaspeak_nordicsdk" path="thunderdome/external/nordicsdk" upstream="feature/curie_ww39"/>
+  <project name="atlaspeak_qemu" path="thunderdome/external/qemu" upstream="feature/curie_ww39"/>
+  <project name="atlaspeak_seabios" path="thunderdome/external/qemu/rom/seabios" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_basis" path="thunderdome/packages/intel/sensors/algo/activity_algos" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_bluepy" path="thunderdome/external/bluepy" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_bootloader" path="thunderdome/bsp/bootable/bootloader" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_dhrystone" path="thunderdome/external/dhrystone" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_gcc-arc" path="thunderdome/external/gcc-arc-elf32" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_gcc-arm" path="thunderdome/external/gcc-arm" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_intelpackages" path="thunderdome/packages/intel" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_kconfig" path="thunderdome/external/kconfig" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_liblzg" path="thunderdome/external/liblzg" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_main" path="thunderdome" upstream="feature/curie_ww39">
     <linkfile dest="Makefile" src="projects/curie_sdk/build/Makefile.mk"/>
   </project>
-  <project name="thunderdome_micro-ecc" path="thunderdome/external/micro-ecc" upstream="feature/curie"/>
-  <project name="thunderdome_nanopb" path="thunderdome/external/nanopb" upstream="feature/curie"/>
-  <project name="thunderdome_openocd" path="thunderdome/external/openocd" upstream="feature/curie"/>
-  <project name="thunderdome_psh_core" path="thunderdome/packages/intel/sensors/psh_core" upstream="feature/curie"/>
-  <project name="thunderdome_python-ecdsa" path="thunderdome/external/python-ecdsa" upstream="feature/curie"/>
-  <project name="thunderdome_sha256" path="thunderdome/external/sha256" upstream="feature/curie"/>
-  <project name="thunderdome_zephyr" path="thunderdome/external/zephyr" upstream="feature/curie"/>
+  <project name="thunderdome_micro-ecc" path="thunderdome/external/micro-ecc" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_nanopb" path="thunderdome/external/nanopb" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_openocd" path="thunderdome/external/openocd" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_psh_core" path="thunderdome/packages/intel/sensors/psh_core" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_python-ecdsa" path="thunderdome/external/python-ecdsa" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_sha256" path="thunderdome/external/sha256" upstream="feature/curie_ww39"/>
+  <project name="thunderdome_zephyr" path="thunderdome/external/zephyr" upstream="feature/curie_ww39"/>
 </manifest>
