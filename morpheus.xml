@@ -7,7 +7,7 @@
   <project name="thunderdome_main" path="wearable_device_sw" revision="morpheus_demo">
 	  <linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile" />
   </project>
-  <project name="thunderdome_bootloader" path="wearable_device_sw/bsp/bootable/bootloader"/>
+  <project name="thunderdome_bootloader" path="wearable_device_sw/bsp/bootable/bootloader" revision="morpheus_demo"/>
   <project name="atlaspeak_nordicsdk" path="wearable_device_sw/external/nordicsdk"/>
   <project name="atlaspeak_jlink" path="wearable_device_sw/external/jlink"/>
   <project name="thunderdome_openocd" path="wearable_device_sw/external/openocd"/>
