@@ -28,5 +28,6 @@
   <project name="thunderdome_liblzg" path="wearable_device_sw/external/liblzg" />
   <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa" />
   <project name="thunderdome_bluepy" path="wearable_device_sw/external/bluepy" />
+  <project name="thunderdome_pyserial" path="wearable_device_sw/external/pyserial"/>
 
 </manifest>
