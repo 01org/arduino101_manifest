@@ -1,8 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-    <default revision="thunderdome_v1" remote="ach"/>
-
-    <include name="include/atlaspeak.xml"/>
-    <project name="atlaspeak_atlasedge" path="wearable_device_sw/projects/curie_101"/>
+  <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com" />
+  
+  <default remote="ach" revision="feature/curie" />
+  
+  <project name="atlaspeak_atlasedge" path="wearable_device_sw/projects/curie_101" />
+  <project name="atlaspeak_jlink" path="wearable_device_sw/external/jlink" />
+  <project name="atlaspeak_manifest" path="manifest" />
+  <project name="atlaspeak_nordicsdk" path="wearable_device_sw/external/nordicsdk" />
+  <project name="atlaspeak_qemu" path="wearable_device_sw/external/qemu" />
+  <project name="atlaspeak_seabios" path="wearable_device_sw/external/qemu/rom/seabios" />
+  <project name="thunderdome_android_sdk" path="android_sdk" />
+  <project name="thunderdome_basis" path="wearable_device_sw/packages/intel/sensors/algo/activity_algos" />
+  <project name="thunderdome_bluepy" path="wearable_device_sw/external/bluepy" />
+  <project name="thunderdome_bootloader" path="wearable_device_sw/bsp/bootable/bootloader" />
+  <project name="thunderdome_dhrystone" path="wearable_device_sw/external/dhrystone" />
+  <project name="thunderdome_gcc-arc" path="wearable_device_sw/external/gcc-arc-elf32" />
+  <project name="thunderdome_gcc-arm" path="wearable_device_sw/external/gcc-arm" />
+  <project name="thunderdome_gcc-i586" path="wearable_device_sw/external/gcc-i586-pc-elf" />
+  <project name="thunderdome_intelpackages" path="wearable_device_sw/packages/intel" />
+  <project name="thunderdome_kconfig" path="wearable_device_sw/external/kconfig" />
+  <project name="thunderdome_liblzg" path="wearable_device_sw/external/liblzg" />
+  <project name="thunderdome_main" path="wearable_device_sw">
+    <linkfile dest="Makefile" src="projects/curie_sdk/build/Makefile.mk" />
+  </project>
+  <project name="thunderdome_micro-ecc" path="wearable_device_sw/external/micro-ecc" />
+  <project name="thunderdome_nanopb" path="wearable_device_sw/external/nanopb" />
+  <project name="thunderdome_openocd" path="wearable_device_sw/external/openocd" />
+  <project name="thunderdome_psh_core" path="wearable_device_sw/packages/intel/sensors/psh_core" />
+  <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa" />
+  <project name="thunderdome_sha256" path="wearable_device_sw/external/sha256" />
+  <project name="thunderdome_zephyr" path="wearable_device_sw/external/zephyr" />
 </manifest>
