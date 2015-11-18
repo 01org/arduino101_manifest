@@ -34,4 +34,5 @@
   <project name="thunderdome_pyserial" path="wearable_device_sw/external/pyserial"/>
   <project name="thunderdome_android_sdk" path="android_sdk"/>
   <project name="thunderdome_ios_sdk" path="ios_sdk"/>
+  <project name="thunderdome_libmath" path="wearable_device_sw/packages/mathlib"/>
 </manifest>
