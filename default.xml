@@ -31,4 +31,6 @@
   <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa" />
   <project name="thunderdome_sha256" path="wearable_device_sw/external/sha256" />
   <project name="thunderdome_zephyr" path="wearable_device_sw/external/zephyr" />
+  <project name="thunderdome_libmath" path="wearable_device_sw/packages/mathlib" />
+
 </manifest>
