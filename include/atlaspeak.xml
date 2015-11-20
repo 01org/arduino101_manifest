@@ -25,7 +25,7 @@
   <project name="thunderdome_liblzg" path="wearable_device_sw/external/liblzg"/>
   <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa"/>
   <project name="thunderdome_bluepy" path="wearable_device_sw/external/bluepy"/>
-  <project name="curie_orb" path="wearable_device_sw/projects/curie_orb"/>
+  <project name="curie_orb" path="wearable_device_sw/projects/curie_orb" revision="thunderdome_v1"/>
   <project name="thunderdome_android_sdk" path="android_sdk"/>
   <project name="thunderdome_libmath" path="wearable_device_sw/packages/mathlib"/>
 </manifest>
