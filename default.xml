@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com" />
   
-  <default remote="ach" revision="feature/curie" />
+  <default remote="ach" revision="feature/curie_ww45" />
   
   <project name="atlaspeak_atlasedge" path="wearable_device_sw/projects/curie_101" />
   <project name="atlaspeak_jlink" path="wearable_device_sw/external/jlink" />
