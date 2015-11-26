@@ -1,0 +1,26 @@
+MORPHEUS:
+- manifest
+- wearable_device_sw
+- wearable_device_sw/bsp/bootable/bootloader
+- wearable_device_sw/external/nordicsdk
+- wearable_device_sw/external/jlink
+- wearable_device_sw/external/openocd
+- wearable_device_sw/external/zephyr
+- wearable_device_sw/external/kconfig
+- wearable_device_sw/external/gcc-arc-elf32
+- wearable_device_sw/external/gcc-i586-pc-elf
+- wearable_device_sw/external/nanopb
+- wearable_device_sw/external/gcc-arm
+- wearable_device_sw/external/qemu
+- wearable_device_sw/external/qemu/rom/seabios
+- wearable_device_sw/packages/intel/sensors/algo/activity_algos
+- wearable_device_sw/packages/intel/sensors/psh_core
+- wearable_device_sw/packages/intel
+- wearable_device_sw/external/dhrystone
+- wearable_device_sw/external/micro-ecc
+- wearable_device_sw/external/sha256
+- wearable_device_sw/external/liblzg
+- wearable_device_sw/external/python-ecdsa
+- wearable_device_sw/external/bluepy
+- wearable_device_sw/external/pyserial
+- wearable_device_sw/projects/morpheus
