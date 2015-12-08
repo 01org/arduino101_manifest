@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-  <default revision="master" remote="ach"/>
+  <default revision="feature/ble_core_otc_api" remote="ach"/>
 
   <project name="atlaspeak_manifest" path="manifest"/>
   <project name="thunderdome_main" path="wearable_device_sw">
