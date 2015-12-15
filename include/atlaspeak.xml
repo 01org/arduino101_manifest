@@ -17,7 +17,7 @@
   <project name="atlaspeak_qemu" path="wearable_device_sw/external/qemu"/>
   <project name="atlaspeak_seabios" path="wearable_device_sw/external/qemu/rom/seabios"/>
   <project name="thunderdome_basis" path="wearable_device_sw/packages/intel/sensors/algo/activity_algos"/>
-  <project name="thunderdome_psh_core" path="wearable_device_sw/packages/intel/sensors/psh_core"/>
+  <project name="thunderdome_psh_core" path="wearable_device_sw/packages/intel/sensors/psh_core" revision="thunderdome_v1" />
   <project name="thunderdome_intelpackages" path="wearable_device_sw/packages/intel"/>
   <project name="thunderdome_dhrystone" path="wearable_device_sw/external/dhrystone"/>
   <project name="thunderdome_micro-ecc" path="wearable_device_sw/external/micro-ecc"/>
