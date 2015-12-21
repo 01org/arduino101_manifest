@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
+  
+  <default remote="ach" revision="feature/curie"/>
+  
+  <project name="atlaspeak_atlasedge" path="wearable_device_sw/projects/curie_101" revision="ba64bbace917d3a62b06e2f07d5201781288c3a8" upstream="feature/curie"/>
+  <project name="atlaspeak_jlink" path="wearable_device_sw/external/jlink" revision="3c09bcecb546d2d6cd7e2b0606287964d1068f2d" upstream="feature/curie"/>
+  <project name="atlaspeak_manifest" path="manifest" revision="3b65545cfb42f3c42a2f5c254612a8a72a40e717" upstream="feature/curie"/>
+  <project name="atlaspeak_nordicsdk" path="wearable_device_sw/external/nordicsdk" revision="a176a75d150b8425747013ffde525ec39d757b16" upstream="feature/curie"/>
+  <project name="atlaspeak_qemu" path="wearable_device_sw/external/qemu" revision="5155e2f1c22212a4df74097c4880d9072b35aa9a" upstream="feature/curie"/>
+  <project name="atlaspeak_seabios" path="wearable_device_sw/external/qemu/rom/seabios" revision="fb109ce9b214f4540c7a59243c65d18fb2968cd0" upstream="feature/curie"/>
+  <project name="curie_orb" path="wearable_device_sw/projects/curie_orb" revision="c7d9cd53eb9bea0a3773cccb66e4ddaef8b48de9" upstream="thunderdome_v1"/>
+  <project name="thunderdome_android_sdk" path="android_sdk" revision="8f08601157a41e47fc2125d1a05f9af8f162b2be" upstream="feature/curie"/>
+  <project name="thunderdome_basis" path="wearable_device_sw/packages/intel/sensors/algo/activity_algos" revision="5b25913d1dae55d17a9053279415138aefc9e239" upstream="feature/curie"/>
+  <project name="thunderdome_bluepy" path="wearable_device_sw/external/bluepy" revision="39370278ce84e85bc854307c37ec10e37398cf69" upstream="feature/curie"/>
+  <project name="thunderdome_bootloader" path="wearable_device_sw/bsp/bootable/bootloader" revision="5587c4554437f7d2b4c640ede79de0c49c101c88" upstream="feature/curie"/>
+  <project name="thunderdome_dhrystone" path="wearable_device_sw/external/dhrystone" revision="412bedea6e0b8ec25dc7cdba424456b78ca1d912" upstream="feature/curie"/>
+  <project name="thunderdome_gcc-arc" path="wearable_device_sw/external/gcc-arc-elf32" revision="fcca9a961393f92e179e58779fca6806e3fd7781" upstream="feature/curie"/>
+  <project name="thunderdome_gcc-arm" path="wearable_device_sw/external/gcc-arm" revision="56599e036792a76ed55cb56ed14a08baf51b238c" upstream="feature/curie"/>
+  <project name="thunderdome_gcc-i586" path="wearable_device_sw/external/gcc-i586-pc-elf" revision="4574e6c9da93bb6d48cff0555ac370b4227bcf13" upstream="feature/curie"/>
+  <project name="thunderdome_intelpackages" path="wearable_device_sw/packages/intel" revision="911e436e986ba27c85061c2fcde5bf0dd3caf563" upstream="feature/curie"/>
+  <project name="thunderdome_kconfig" path="wearable_device_sw/external/kconfig" revision="db700bf20a4c7628e749990eadbce72525210b56" upstream="feature/curie"/>
+  <project name="thunderdome_liblzg" path="wearable_device_sw/external/liblzg" revision="3640fa9a80e6dd3a699aa19c7af3b38edb857514" upstream="feature/curie"/>
+  <project name="thunderdome_libmath" path="wearable_device_sw/packages/mathlib" revision="97489d5ff51d7e46c43d445ca892fb632eb10d48" upstream="feature/curie"/>
+  <project name="thunderdome_main" path="wearable_device_sw" revision="c3d25bf42a28840c0a9f58bb7dec31853859b4f9" upstream="feature/curie">
+    <linkfile dest="Makefile" src="projects/curie_common/build/Makefile.mk"/>
+  </project>
+  <project name="thunderdome_micro-ecc" path="wearable_device_sw/external/micro-ecc" revision="528cb29b309f54cdb07b2a35a77014bd35e65983" upstream="feature/curie"/>
+  <project name="thunderdome_nanopb" path="wearable_device_sw/external/nanopb" revision="c31f2527b14aa35ff7d1fb844255c7722d1dd7f7" upstream="feature/curie"/>
+  <project name="thunderdome_openocd" path="wearable_device_sw/external/openocd" revision="c11178bf5602a6cff687a40ffa84a6fa374a1a59" upstream="feature/curie"/>
+  <project name="thunderdome_psh_core" path="wearable_device_sw/packages/intel/sensors/psh_core" revision="afba41deeba91356c4beebe65efdc9d6c6e1490a" upstream="feature/curie"/>
+  <project name="thunderdome_python-ecdsa" path="wearable_device_sw/external/python-ecdsa" revision="8437ac139912e3e423864fed8fb1e74eff955a16" upstream="feature/curie"/>
+  <project name="thunderdome_sha256" path="wearable_device_sw/external/sha256" revision="03c4b0f198c3fd07b39ac48affb989cf1fb2938a" upstream="feature/curie"/>
+  <project name="thunderdome_zephyr" path="wearable_device_sw/external/zephyr" revision="87b902ff8aaeb1c4274a40f8c509e91be688891e" upstream="feature/curie"/>
+</manifest>
