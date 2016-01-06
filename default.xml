@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="ssh://android.intel.com:29418" name="ach" review="https://android.intel.com"/>
-    <default revision="master" remote="ach"/>
+    <default revision="thunderdome_v2" remote="ach"/>
 
     <include name="include/atlaspeak.xml"/>
     <project name="atlaspeak_atlasedge" path="wearable_device_sw/projects/curie_101"/>
