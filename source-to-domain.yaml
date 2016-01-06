@@ -46,7 +46,6 @@ PLATFORM:
 - wearable_device_sw/external/kconfig
 - wearable_device_sw/external/openocd
 - wearable_device_sw/external/zephyr
-- wearable_device_sw/projects/curie_101
 - wearable_device_sw/projects/curie_orb
 - wearable_device_sw/packages/intel
 POWER:
