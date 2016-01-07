@@ -4,14 +4,14 @@
   <default revision="master" remote="ach"/>
 
   <project name="atlaspeak_manifest" path="manifest"/>
-  <project name="thunderdome_main" path="wearable_device_sw">
+  <project name="thunderdome_main" path="wearable_device_sw" revision="feature/rebasezephyr090">
 	  <linkfile src="projects/curie_common/build/Makefile.mk" dest="Makefile" />
   </project>
   <project name="thunderdome_bootloader" path="wearable_device_sw/bsp/bootable/bootloader"/>
   <project name="atlaspeak_nordicsdk" path="wearable_device_sw/external/nordicsdk"/>
   <project name="atlaspeak_jlink" path="wearable_device_sw/external/jlink"/>
   <project name="thunderdome_openocd" path="wearable_device_sw/external/openocd"/>
-  <project name="thunderdome_zephyr" path="wearable_device_sw/external/zephyr"/>
+  <project name="thunderdome_zephyr" path="wearable_device_sw/external/zephyr" revision="feature/rebase_0_9_0"/>
   <project name="thunderdome_kconfig" path="wearable_device_sw/external/kconfig"/>
   <project name="thunderdome_gcc-arc" path="wearable_device_sw/external/gcc-arc-elf32"/>
   <project name="thunderdome_gcc-i586" path="wearable_device_sw/external/gcc-i586-pc-elf"/>
