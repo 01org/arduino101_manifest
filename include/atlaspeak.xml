@@ -5,7 +5,7 @@
 
   <project name="atlaspeak_manifest" path="manifest"/>
   <project name="thunderdome_main" path="wearable_device_sw">
-	  <linkfile src="projects/curie_common/build/Makefile.mk" dest="Makefile" />
+	  <linkfile src="projects/ci/Makefile.mk" dest="Makefile" />
   </project>
   <project name="thunderdome_bootloader" path="wearable_device_sw/bsp/bootable/bootloader"/>
   <project name="atlaspeak_nordicsdk" path="wearable_device_sw/external/nordicsdk"/>
