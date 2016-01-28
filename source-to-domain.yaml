@@ -24,8 +24,12 @@ MORPHEUS:
 - wearable_device_sw/external/bluepy
 - wearable_device_sw/external/pyserial
 - wearable_device_sw/projects/morpheus
-APPS:
+ANDROID:
 - android_sdk
+- wearable_device_sw/packages/intel/iq/protobuf
+IOS:
+- ios_sdk
+- wearable_device_sw/packages/intel/iq/protobuf
 CONNECTIVITY:
 - wearable_device_sw
 - wearable_device_sw/external/bluepy
