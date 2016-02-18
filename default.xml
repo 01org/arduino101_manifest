@@ -15,5 +15,4 @@
 	<project name="arduino101_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf"/>
 	<project name="arduino101_gcc-arm" path="thunderdome/external/gcc-arm"/>
 	<project name="arduino101_nanopb" path="thunderdome/external/nanopb"/>
-	<project name="arduino101_intelpackages" path="thunderdome/packages/intel"/>
 </manifest>
