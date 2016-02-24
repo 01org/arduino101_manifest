@@ -3,7 +3,7 @@
 	<remote fetch="git+ssh://git@github.com/01org/" name="origin"/>
 	<default remote="origin" revision="dev/101/v1"/>
 	
-	<project name="arduino101_arduino101" path="thunderdome/projects/quark_se_arduino101"/>
+	<project name="arduino101_arduino101" path="thunderdome/projects/arduino101"/>
 	<project name="arduino101_manifest" path="manifest"/>
 	<project name="arduino101_main" path="thunderdome">
 		<linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile"/>
