@@ -2,17 +2,17 @@
 <manifest>
 	<remote fetch="git+ssh://git@github.com/01org/" name="origin"/>
 	<default remote="origin" revision="dev/101/v1"/>
-	
-	<project name="arduino101_arduino101" path="thunderdome/projects/arduino101"/>
+
+	<project name="arduino101_arduino101" path="arduino101_firmware/projects/arduino101"/>
 	<project name="arduino101_manifest" path="manifest"/>
-	<project name="arduino101_main" path="thunderdome">
+	<project name="arduino101_main" path="arduino101_firmware">
 		<linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile"/>
 	</project>
-	<project name="arduino101_bootloader" path="thunderdome/bsp/bootable/bootloader"/>
-	<project name="arduino101_zephyr" path="thunderdome/external/zephyr"/>
-	<project name="arduino101_kconfig" path="thunderdome/external/kconfig"/>
-	<project name="arduino101_gcc-arc" path="thunderdome/external/gcc-arc-elf32"/>
-	<project name="arduino101_gcc-i586" path="thunderdome/external/gcc-i586-pc-elf"/>
-	<project name="arduino101_gcc-arm" path="thunderdome/external/gcc-arm"/>
-	<project name="arduino101_nanopb" path="thunderdome/external/nanopb"/>
+	<project name="arduino101_bootloader" path="arduino101_firmware/bsp/bootable/bootloader"/>
+	<project name="arduino101_zephyr" path="arduino101_firmware/external/zephyr"/>
+	<project name="arduino101_kconfig" path="arduino101_firmware/external/kconfig"/>
+	<project name="arduino101_gcc-arc" path="arduino101_firmware/external/gcc-arc-elf32"/>
+	<project name="arduino101_gcc-i586" path="arduino101_firmware/external/gcc-i586-pc-elf"/>
+	<project name="arduino101_gcc-arm" path="arduino101_firmware/external/gcc-arm"/>
+	<project name="arduino101_nanopb" path="arduino101_firmware/external/nanopb"/>
 </manifest>
