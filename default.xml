@@ -15,4 +15,5 @@
 	<project name="arduino101_gcc-i586" path="arduino101_firmware/external/gcc-i586-pc-elf"/>
 	<project name="arduino101_gcc-arm" path="arduino101_firmware/external/gcc-arm"/>
 	<project name="arduino101_nanopb" path="arduino101_firmware/external/nanopb"/>
+	<project name="arduino101_flashpack" path="arduino101_flashpack"/>
 </manifest>
