@@ -9,6 +9,7 @@
 		<linkfile src="projects/curie_sdk/build/Makefile.mk" dest="Makefile"/>
 	</project>
 	<project name="arduino101_bootloader" path="arduino101_firmware/bsp/bootable/bootloader"/>
+	<project name="arduino101_nordicsdk" path="arduino101_firmware/external/nordicsdk"/>
 	<project name="arduino101_zephyr" path="arduino101_firmware/external/zephyr"/>
 	<project name="arduino101_kconfig" path="arduino101_firmware/external/kconfig"/>
 	<project name="arduino101_gcc-arc" path="arduino101_firmware/external/gcc-arc-elf32"/>
